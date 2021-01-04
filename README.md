@@ -208,7 +208,7 @@
 
 ### ***\*什么是区块链技术？\****
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps1.png) 
+![img](https://i.loli.net/2021/01/05/qhZkub1FSJHxVgs.png)
 
  
 
