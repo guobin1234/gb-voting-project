@@ -330,8 +330,7 @@
 
 在前一节讲解区块链基本知识的基础上，这里简单讲解以太坊公链特有的公链特性。首先以太坊可以视作大型的状态机，由分布在全球的 以太坊节点来运行这个状态机，每一次交易的产生都会修改状态机的状态。将交易打包成区块之后，可以以区块为单位来衡量状态的迁移，如 图1.8所示。 
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps2.jpg) 
-
+![img](https://i.loli.net/2021/01/05/b7rzCVO5keN2niZ.jpg)
  
 
  
@@ -342,7 +341,7 @@
 
 以太坊全局状态及账户结构如图1.9所示。账户1是智能合约账户，其地址映射到一个账户状态，这个状态由4部分组成：nonce、余额、存储数据的Hash值、EVM代码的Hash值。存储空间是智能合约虚拟机运行时需要的存储介质，EVM 代码是智能合约代码编译并部署到以太坊之后的数据。账户2是外部账户，该账户的状态仅仅由nonce和余额组成。以太坊账户由这两类账户组成，所有这些账户组成了以太坊的全局状态。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps3.jpg) 
+![img](https://i.loli.net/2021/01/05/Z7DTyzeLqPAUliB.jpg) 
 
  
 
@@ -352,7 +351,7 @@
 
 以太坊上的账户之间会有系统调用，这里仅仅讲解与DAPP相关的系统调用。首先是账户生成交易对以太坊状态的修改，如图1.10所示。每次创建和部署智能合约，都会创建一个新的账户，创建账户的代码包含在交易中，交易可以由外部账户发起，也可以由合约账户发起，创建合约账户的代码通过Solidity编程语言编写，通过以太坊的智能合约编译器编译生成。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps4.jpg) 
+![img](https://i.loli.net/2021/01/05/QsFl8BgaTUuNIiy.jpg) 
 
  
 
@@ -366,7 +365,7 @@
 
 其次，账户生成之后，会开辟账户存储空间和以太坊虚拟机可以理解并执行的代码，如图1.11所示。当智能合约生成之后，可以通过ABI接口调用该智能合约，这种信息调用也会对区块链的状态发送读写操作。通过ABI接口传入外部数据，然后通过以太坊智能合约虚拟机读取合约代码，结合输入的数据和区块链上存储的数据，修改区块链状态，并将最新的状态信息存放在以太坊公链上。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps5.jpg) 
+![img](https://i.loli.net/2021/01/05/JhOI1Es8Kp5326g.jpg) 
 
  
 
@@ -380,7 +379,7 @@
 
 因此，EVM的出现使得对区块链编程成为可能，具有EVM的以太坊公链技术可以视作是对原有区块链技术的一次重大革新。如果把区块链比作PC操作系统，那么EVM就是类似于JVM一样的运行环境，Solidity智能合约就是类似于JAVA的高级编程语言，而EVM出现之前的比特币网络仅有有限的指令可以对区块链编程，有点类似于底层的汇编语言编程。从这个角度来讲，EVM使得区块链高级语言编程成为可能。EVM作为一个离线的、独立的运行环境，它无法访问外界的文件系统、网络接口等资源，目前EVM的指令中尚未支持对这些资源的操作。当编写的智能合约被编译成 EVM 能够理解的代码之后，EVM会在自己独立的运行环境中执行用户编写的智能合约程序，EVM的架构及代码执行流程如图1.12所示。 
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps6.jpg) 
+![img](https://i.loli.net/2021/01/05/pVkyS5KflDnIcCH.jpg) 
 
  
 
@@ -406,7 +405,7 @@ Solidity编程语言解决了编写智能合约的不友好的问题，但是当
 
 图1.15所示为DAPP架构图，该架构图包含了从用户通过可视化界面发起操作到以太坊状态机发生改变的全流程。首先，用户通过 Web界面或者手机 APP 将操作数据发送到一个传统的业务服务器，该业务服务器是传统互联网中心化的服务器，但是与传统系统不同的是，该系统没有像传统互联网设计那样将数据放入中心化的数据库存储，而是通过一个Web3.0接口，将数据传送到以太坊区块链公链上。该接口是一个JSON RPC协议，该协议有很多代码实现。目前最流行的是运行在Web容器中的Web3.js模块。Solidity编程语言经过编译之后，除了交易需要的合约初始化代码之外，还有API接口等描述文件，Web3.js通过这些描述文件，可以构建与以太坊智能合约虚拟机进行通信的模块，通过JS（全称JavaScript，下文都简称JS）代码将用户的操作数据传入以太坊公链上的合约地址，智能合约虚拟机会根据函数签名和加载的函数参数，在虚拟机内执行编译成 EVM Code的智能合约。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps7.jpg) 
+![img](https://i.loli.net/2021/01/05/afuMVmDq5reIwcT.jpg)
 
 如果涉及区块链数据的读取，则虚拟机会读取区块链上的区块数据。如果虚拟机的指令代码修改以太坊公链的状态，那么通过调用相关的状态机指令，并消耗一定的GAS之后，就可以将修改操作提交到以太坊区块链公链网络中，这些操作往往以交易的方式体现。在虚拟机执行任务结束后，其对区块链状态的修改会被矿工打包。当状态修改被全网共识时，虚拟机对公链网络的状态修改也相应成功。可以通过查询相关的执行结果，将执行状态返回给用户交互系统，这样终端用户就可以通过交互系统查看DAPP操作的执行结果。
 
@@ -500,7 +499,7 @@ Solidity编程语言解决了编写智能合约的不友好的问题，但是当
 
 投票流程图如下3.1
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps8.jpg) 
+![img](https://i.loli.net/2021/01/05/1TdgQJkRAMHjCfs.jpg) 
 
 图3.1投票流程图
 
@@ -540,7 +539,7 @@ Solidity编程语言解决了编写智能合约的不友好的问题，但是当
 
 基于区块链的电子投票应用， 其总体架构图如图4- 1所示，通过系统的设计与实现，对投票信息进行数据上链、汇总和实时跟踪、 形成投票人和投票发起人之间的投票数据交易的实时共享、 史记录查询和投票计票工作，利用区块链技术，对投票和交易进行在线监督、追溯查询和对以太坊后台数据的调取访问等操作，提供给各方合法用户实时有效的投票数据，提升了用户投票的隐私性，减少了对可信赖第三方的依赖程度，最大程度上实现了去中心化、保障了公开、匿名的投票原则。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps9.png)![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps10.jpg) 
+![img](https://i.loli.net/2021/01/05/HWzveICxJ4b7E8s.jpg) 
 
  
 
@@ -552,7 +551,7 @@ Solidity编程语言解决了编写智能合约的不友好的问题，但是当
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps11.jpg) 
+![img](https://i.loli.net/2021/01/05/cMxmKYnAzjiIURO.jpg) 
 
 投票分为两部分，投票者的钱包地址，投票者的选择以及赞成或反对。赞成由值TRUE表示，而反对由值FALSE表示。选民具有3个属性，他的名字以及他是否投票。
 
@@ -568,7 +567,7 @@ Solidity编程语言解决了编写智能合约的不友好的问题，但是当
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps12.jpg) 
+![img](https://i.loli.net/2021/01/05/buUQla18pdG9TOg.jpg)
 
  
 
@@ -576,7 +575,7 @@ vote存储在名为votes的映射中，而选民voter存储在名为voterRegiste
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps13.jpg) 
+![img](https://i.loli.net/2021/01/05/B4fy6ALGRP7tWDh.jpg) 
 
  
 
@@ -586,13 +585,13 @@ finalResult将存储最终赞成票数。它保持为0，直到投票结束。�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps14.jpg) 
+![img](https://i.loli.net/2021/01/05/zvlIfeX4DCFsSZT.jpg)
 
 投票管理者的姓名，钱包地址和提案被保留为公共变量，每个人都可以看到，是公开的。
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps15.jpg) 
+![img](https://i.loli.net/2021/01/05/Tb26xz7DaKOV9JL.jpg) 
 
 投票合同通过3个字符。投票管理者创建时，其状态为“ Created”。一旦他指示投票开始，投票合同即变为“ Voting”状态。开始计数时，投票状态变为“ Ended”状态。
 
@@ -606,7 +605,7 @@ finalResult将存储最终赞成票数。它保持为0，直到投票结束。�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps16.jpg) 
+![img](https://i.loli.net/2021/01/05/fIjGTyX5t42VqUS.jpg) 
 
  
 
@@ -616,7 +615,7 @@ finalResult将存储最终赞成票数。它保持为0，直到投票结束。�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps17.jpg) 
+![img](https://i.loli.net/2021/01/05/J6dQ9ODY12RKniU.jpg) 
 
  
 
@@ -624,13 +623,13 @@ finalResult将存储最终赞成票数。它保持为0，直到投票结束。�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps18.jpg) 
+![img](https://i.loli.net/2021/01/05/NxPjV24DqKgfud7.jpg) 
 
 inState的修饰符。它检查以确保合同当前处于提供给inState()修饰符的变量状态.
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps19.jpg) 
+![img](https://i.loli.net/2021/01/05/m9R3r8ItWcLDqEH.jpg) 
 
  
 
@@ -638,7 +637,7 @@ onlyOfficial()声明的修饰符会检查以确保调用此函数的人的钱包
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps20.jpg) 
+![img](https://i.loli.net/2021/01/05/oAJn4s2BOXkMwbe.jpg)
 
  
 
@@ -650,7 +649,7 @@ onlyOfficial()声明的修饰符会检查以确保调用此函数的人的钱包
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps21.jpg) 
+![img](https://i.loli.net/2021/01/05/9zPQNalYLO6mrK4.jpg) 
 
  
 
