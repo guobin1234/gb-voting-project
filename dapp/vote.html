@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-105319773-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+    <title>投票</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>投票</h1>
+        
+        <div id="panels_ballot">
+               
+           	<div class="panel panel-default">
+               	<div class="panel-heading">投票 合约</div>
+               	<div class="panel-body">  
+                   	<div class="form-group">
+               			<label for="txtBallotAddress">投票提案的合约的地址</label>
+               			<input id="txtBallotAddress" class="form-control" type="text" value="">
+                   	</div>
+        
+                   	<div class="form-group">
+                       	<input id="btnGo" class="btn btn-primary" type="button" value="查询并投票-Go！" />
+                       	<img id="loader" src="./css/img/Spin-1s-200px.svg">
+                   	</div>
+               	</div>
+       	    </div>
+       	    
+       	</div>
+        	
+        <div id="panels_contract">
+    
+            <div class="panel panel-default">
+               	<div class="panel-heading">合约的数据</div>
+               	<div class="panel-body">
+   
+               		<div id="lbl_state"></div>
+               		<div id="lbl_officialname"></div>
+               		<div id="lbl_proposal"></div>
+               		<div id="lbl_result"></div>
+    
+                    <div id="section_voting">
+                        <hr />
+               		    <div id="lbl_voter"></div>
+                       	<div><b>你的投票意见</b></div>   
+               	        <input id="btnYes" class="btn btn-success" type="button" value="赞同" />
+               	        <input id="btnNo" class="btn btn-danger" type="button" value="反对" />
+               	        <img id="loaderChoice" src="./css/img/Spin-1s-200px.svg">
+               	        <div id="lblVoted"></div>
+                    </div>
+               	</div>
+           	</div>    
+        </div>
+
+    </div>
+
+ 
+    <script src="vote.js"></script>
+
+</body>
+</html>
