@@ -959,13 +959,13 @@ watchVoteDone()等待voteDone事件被触发。voteDone当选民投票被触发�
 
 loadFinalResult()从投票智能合约中获得最终投票结果，并将其显示在投票 DApp的用户界面中。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps42.jpg) 
+![img](https://i.loli.net/2021/01/05/BQa12qhl4seLjEC.jpg) 
 
 loadState() 查找投票智能合约的当前状态，并在投票DApp的用户界面中显示“Created”，“正在投票中”或“投票已结束”。
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps43.jpg) 
+![img](https://i.loli.net/2021/01/05/e3SPi5fbXGYsu9c.jpg)
 
 loadVoter() 检查选票智能合约上的选民登记册，以查看该选民的钱包地址是否已注册为选民。如果他不是，那么他就没有资格投票。[赞同]和[反对]按钮被隐藏。
 
@@ -977,7 +977,7 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps44.jpg) 
+![img](https://i.loli.net/2021/01/05/MrOn1dY2Axwz48s.jpg) 
 
 用户按下[GO]按钮以加载Ballot智能合约。它执行getContract()以使选民看到提案并对其进行投票。
 
@@ -993,11 +993,11 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
 让您的投票正确的名字（默认情况下我们把张三当作投票发起人）和提案内容（默认情况下，我们问：李四是否应该当选班长）。按“发起投票-Go”继续。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps45.jpg) 
+![img](https://i.loli.net/2021/01/05/oAfNQ6msbVxCTX5.jpg)
 
 您将需要确认此合同部署事务。它需要付费，但是由于我们在Rinkeby上，所以它是免费的。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps46.jpg) 
+![img](https://i.loli.net/2021/01/05/VvcZNb2dDuL913r.jpg) 
 
  
 
@@ -1009,7 +1009,7 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
 （3）添加选民：作为管理者，您可以在此部分添加新的选民。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps47.jpg) 
+![img](https://i.loli.net/2021/01/05/sFW8pSwJKcuI6Rn.jpg)
 
  
 
@@ -1017,25 +1017,25 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
 作为该投票的管理者，您现在需要确定谁是选民。您将已经收集了您的3个投票者小七，王五和阿六的钱包地址。
 
- ![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps48.jpg)
+ ![img](https://i.loli.net/2021/01/05/Oon1ydH9Uzp3Vig.jpg)
 
  
 
 现在输入他们的姓名和钱包地址。然后按[添加投票参与者]进行添加。这是给这王五的。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps49.jpg) 
+![img](https://i.loli.net/2021/01/05/jzPCHs3qLoIeXFE.jpg) 
 
  
 
 接下来添加阿六、小七的。注意：他们都是未投票的状态。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps50.jpg) 
+![img](https://i.loli.net/2021/01/05/SA712ET9DLWxIlZ.jpg)
 
  
 
 投票成员添加完后，管理者点击“开始投票”按钮。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps51.jpg) 
+![img](https://i.loli.net/2021/01/05/uWLjJTPe2mdEaMQ.jpg) 
 
 之后就不能再进行添加投票成员，且允许已被添加的投票成员进行投票。管理者界面为“投票中”状态。
 
