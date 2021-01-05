@@ -661,7 +661,7 @@ onlyOfficial()声明的修饰符会检查以确保调用此函数的人的钱包
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps22.jpg) 
+![img](https://i.loli.net/2021/01/05/k8p95yHEXmZ7gIj.jpg) 
 
  
 
@@ -695,7 +695,7 @@ onlyOfficial()声明的修饰符会检查以确保调用此函数的人的钱包
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps23.jpg) 
+![img](https://i.loli.net/2021/01/05/smhUXLV65GaNC8z.jpg) 
 
  
 
@@ -723,7 +723,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps24.jpg) 
+![img](https://i.loli.net/2021/01/05/2kijmRB97WhvVpu.jpg)
 
  
 
@@ -743,7 +743,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps25.jpg) 
+![img](https://i.loli.net/2021/01/05/tRuMhQ76iUP3NpG.jpg) 
 
  
 
@@ -759,7 +759,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps26.jpg) 
+![img](https://i.loli.net/2021/01/05/iqd6aLDFZWAKv52.jpg) 
 
 在watchVoteDone()功能中，选民刚刚投票。
 
@@ -767,7 +767,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps27.jpg) 
+![img](https://i.loli.net/2021/01/05/xrtqJYudgjwELOb.jpg)
 
 在watchVoterAdded()函数中，我们监控并等待新的投票者被添加到投票者寄存器中。添加他后，我们将停止旋转加载程序GIF图像，然后执行loadTotalVoter()以更新屏幕上显示的投票者总数。
 
@@ -775,7 +775,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps28.jpg) 
+![img](https://i.loli.net/2021/01/05/CIdgUuxhZD5H4wY.jpg)
 
  
 
@@ -795,7 +795,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps29.jpg) 
+![img](https://i.loli.net/2021/01/05/eJ1vxg2G7oAOtRQ.jpg) 
 
  
 
@@ -805,13 +805,13 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps30.jpg) 
+![img](https://i.loli.net/2021/01/05/fPpeiFkqCUGX6Au.jpg) 
 
  
 
 该loadFinalResult()功能从区块链上的投票智能合约读取投票结果，并将其显示在DApp用户界面的相应部分。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps31.jpg) 
+![img](https://i.loli.net/2021/01/05/52YaKvgZpXW3x6T.jpg) 
 
 loadTotalVoter()功能从区块链上的Ballot Smart Contract中读取选民总数的值，并将其显示在DApp UI的相应部分中。
 
@@ -821,7 +821,7 @@ loadTotalVoter()功能从区块链上的Ballot Smart Contract中读取选民总�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps32.jpg) 
+![img](https://i.loli.net/2021/01/05/cr2pILfH7iRtnWx.jpg)
 
  
 
@@ -837,7 +837,7 @@ loadTotalVoter()功能从区块链上的Ballot Smart Contract中读取选民总�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps33.jpg) 
+![img](https://i.loli.net/2021/01/05/ybMVtRsK9HGZoSQ.jpg) 
 
  
 
@@ -849,7 +849,7 @@ updateNewVote() 功能从区块链上的投票智能合约中读取投票人的�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps34.jpg) 
+![img](https://i.loli.net/2021/01/05/2IlxwMp5Krh4W9c.jpg) 
 
  
 
@@ -873,7 +873,7 @@ updateNewVote() 功能从区块链上的投票智能合约中读取投票人的�
 
 ### ***\*1.2.1 配置模块\****
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps35.jpg) 
+![img](https://i.loli.net/2021/01/05/Ax3gZsbJePfncLK.jpg) 
 
  
 
@@ -893,7 +893,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps36.jpg) 
+![img](https://i.loli.net/2021/01/05/cZVLhUHiknEIBoF.jpg)
 
  
 
@@ -909,7 +909,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps37.jpg) 
+![img](https://i.loli.net/2021/01/05/2XKPeIFLgYvMa5A.jpg) 
 
  
 
@@ -927,7 +927,7 @@ DApp首先设置将在整个投票生命周期中使用的全局变量，即：
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps38.jpg) 
+![img](https://i.loli.net/2021/01/05/D23r9SZOnRKPqdt.jpg) 
 
 watchVoteEnd()等待投票智能合约触发voteEnded事件。发生这种情况时，表示投票管理者已结束投票过程。loadState()执行以在用户界面中显示一条消息，以告知投票者投票已结束。loadFinalResult()执行以向选民展示结果。
 
@@ -935,7 +935,7 @@ watchVoteEnd()等待投票智能合约触发voteEnded事件。发生这种情况
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps39.jpg) 
+![img](https://i.loli.net/2021/01/05/rSD2fhvTFb9YMIV.jpg) 
 
  
 
@@ -945,7 +945,7 @@ watchVoteStarted() 等待投票智能合约触发voteStarted事件。发生这�
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps40.jpg) 
+![img](https://i.loli.net/2021/01/05/B9KhouzfpXMRTtq.jpg) 
 
  
 
@@ -955,7 +955,7 @@ watchVoteDone()等待voteDone事件被触发。voteDone当选民投票被触发�
 
 ### ***\*1.2.4 投票信息模块\****
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps41.jpg) 
+![img](https://i.loli.net/2021/01/05/6mhMAnItqQUapyl.jpg) 
 
 loadFinalResult()从投票智能合约中获得最终投票结果，并将其显示在投票 DApp的用户界面中。
 
