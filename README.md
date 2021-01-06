@@ -1039,7 +1039,7 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
 之后就不能再进行添加投票成员，且允许已被添加的投票成员进行投票。管理者界面为“投票中”状态。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps52.jpg) 
+![img](https://i.loli.net/2021/01/06/2liRgjHAnoIk5ez.jpg) 
 
  
 
@@ -1049,23 +1049,22 @@ loadVoter() 检查选票智能合约上的选民登记册，以查看该选民�
 
 您现在可以投票[赞同]或[反对]。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps53.jpg) 
+![img](https://i.loli.net/2021/01/06/vk7XMGPerW4DToz.jpg) 
 
  
 
 如果切换回“投票管理者的选票管理器”屏幕，您会注意到王五现在已经处于“已完成投票”状态。
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps54.jpg) 
+![img](https://i.loli.net/2021/01/06/7BC2YPpeWLsZfkR.jpg) 
 
-之后阿六，小七陆续投票。可看到三者已完成投票。![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps55.jpg)
-
+之后阿六，小七陆续投票。可看到三者已完成投票。![img](https://i.loli.net/2021/01/06/WKp69g83V7lAByN.jpg)
  
 
 ### **4.** ***\*结束投票并取得结果\****
 
  
 
-![img](file:///C:\Users\DELL\AppData\Local\Temp\ksohtml15484\wps56.jpg) 
+![img](https://i.loli.net/2021/01/06/VQX7iABep6xD1hd.jpg) 
 
 “结束投票”只有管理者才能结束。更改您的MetaMask帐户以指向管理者的钱包。切换回管理者的投票管理器屏幕，然后按[结束投票]结束该投票过程。最后出现如上图结果。
 
